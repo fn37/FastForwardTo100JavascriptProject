@@ -67,6 +67,26 @@ code[class*="language-"],
     }
 
 
+    /* Add font family */
+    /* @font-face {
+        font-family: "myfont";
+        src: url("fonts/Migra-Extrabold") format('woff');
+        font-weight: bold;
+    }
+
+    body {
+        font-family: myfont;
+        font-weight: 800;
+    } */
+.odd {
+    font-weight: 100;
+}
+
+
+.even {
+    font-weight: bold;
+}
+
 main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
