@@ -14,7 +14,7 @@ function getValues() {
     if (Number.isInteger(startValue) && Number.isInteger(endValue)) {
 
         if(endValue > 100 && startValue < 0) {
-            alert('Start Value cannot be less than 0 and End Value cannot be greater than 100.');
+            alert('Values cannot be less than 0 or greater than 100.');
         }
         else if(endValue > 100) {
             alert ('End Value cannot be bigger than 100.');
